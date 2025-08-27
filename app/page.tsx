@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
-  CardDescription,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -30,14 +29,12 @@ import {
   Users,
   Award,
   Clock,
-  X,
 } from "lucide-react";
 import Image from "next/image";
 import { useState } from "react";
 
 export default function VMwareLandingPage() {
   const [isLeadFormOpen, setIsLeadFormOpen] = useState(false);
-  const [isConsultationOpen, setIsConsultationOpen] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [leadFormData, setLeadFormData] = useState({
     firstName: "",
@@ -159,7 +156,7 @@ export default function VMwareLandingPage() {
                 <span className="text-orange-400"> Licensing Increase</span>
               </h1>
               <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-                Following Broadcom's acquisition, VMware licensing costs are
+                Following Broadcom&apos;s acquisition, VMware licensing costs are
                 skyrocketing. Transform this challenge into an opportunity to
                 modernize with AWS.
               </p>
@@ -346,9 +343,9 @@ export default function VMwareLandingPage() {
                   </div>
                 </div>
                 <blockquote className="text-slate-700 italic mb-4">
-                  "Opti9 helped us turn that challenge into an opportunity to
+                  &quot;Opti9 helped us turn that challenge into an opportunity to
                   modernize by migrating to AWS. We were able to remove, and in
-                  some cases consolidate and/or upgrade, over 60 servers."
+                  some cases consolidate and/or upgrade, over 60 servers.&quot;
                 </blockquote>
                 <div className="font-semibold text-slate-900">
                   Robert Reynolds, CTO
@@ -403,7 +400,7 @@ export default function VMwareLandingPage() {
                         300% Licensing Increase
                       </h3>
                       <p className="text-slate-600">
-                        Broadcom's acquisition has led to substantial cost hikes
+                        Broadcom&apos;s acquisition has led to substantial cost hikes
                         threatening IT budgets.
                       </p>
                     </div>
@@ -420,7 +417,7 @@ export default function VMwareLandingPage() {
                         Fixed Resources
                       </h3>
                       <p className="text-slate-600">
-                        ESXi hosts provide limited capacity that can't easily
+                        ESXi hosts provide limited capacity that can&apos;t easily
                         scale with business demands.
                       </p>
                     </div>
@@ -717,7 +714,7 @@ export default function VMwareLandingPage() {
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">
-                  What You'll Get:
+                  What You&apos;ll Get:
                 </h3>
                 <ul className="space-y-3 text-slate-600">
                   <li className="flex items-center">

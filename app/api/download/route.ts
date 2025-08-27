@@ -23,7 +23,7 @@ export async function GET() {
       'attachment; filename="opti9-vmware-case-study.pdf"'
     );
 
-    return new NextResponse(fileBuffer, {
+    return new Response(new Uint8Array(fileBuffer), {
       status: 200,
       headers,
     });
