@@ -1,12 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import {
-  Card,
-  CardContent,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import {
@@ -156,9 +151,9 @@ export default function VMwareLandingPage() {
                 <span className="text-orange-400"> Licensing Increase</span>
               </h1>
               <p className="text-xl text-slate-200 mb-8 leading-relaxed">
-                Following Broadcom&apos;s acquisition, VMware licensing costs are
-                skyrocketing. Transform this challenge into an opportunity to
-                modernize with AWS.
+                Following Broadcom&apos;s acquisition, VMware licensing costs
+                are skyrocketing. Transform this challenge into an opportunity
+                to modernize with AWS.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Dialog open={isLeadFormOpen} onOpenChange={setIsLeadFormOpen}>
@@ -343,9 +338,10 @@ export default function VMwareLandingPage() {
                   </div>
                 </div>
                 <blockquote className="text-slate-700 italic mb-4">
-                  &quot;Opti9 helped us turn that challenge into an opportunity to
-                  modernize by migrating to AWS. We were able to remove, and in
-                  some cases consolidate and/or upgrade, over 60 servers.&quot;
+                  &quot;Opti9 helped us turn that challenge into an opportunity
+                  to modernize by migrating to AWS. We were able to remove, and
+                  in some cases consolidate and/or upgrade, over 60
+                  servers.&quot;
                 </blockquote>
                 <div className="font-semibold text-slate-900">
                   Robert Reynolds, CTO
@@ -400,8 +396,8 @@ export default function VMwareLandingPage() {
                         300% Licensing Increase
                       </h3>
                       <p className="text-slate-600">
-                        Broadcom&apos;s acquisition has led to substantial cost hikes
-                        threatening IT budgets.
+                        Broadcom&apos;s acquisition has led to substantial cost
+                        hikes threatening IT budgets.
                       </p>
                     </div>
                   </div>
@@ -417,8 +413,8 @@ export default function VMwareLandingPage() {
                         Fixed Resources
                       </h3>
                       <p className="text-slate-600">
-                        ESXi hosts provide limited capacity that can&apos;t easily
-                        scale with business demands.
+                        ESXi hosts provide limited capacity that can&apos;t
+                        easily scale with business demands.
                       </p>
                     </div>
                   </div>
