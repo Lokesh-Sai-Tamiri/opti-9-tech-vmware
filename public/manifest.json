@@ -1,0 +1,28 @@
+{
+    "name": "Opti9 - VMware to AWS Migration Solutions",
+    "short_name": "Opti9",
+    "description": "Stop paying 300% more for VMware licensing. Migrate to AWS with 100% funding support.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#01356A",
+    "theme_color": "#01356A",
+    "icons": [
+        {
+            "src": "/opti-9-logo.png",
+            "sizes": "150x36",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/favicon.ico",
+            "sizes": "32x32",
+            "type": "image/x-icon"
+        }
+    ],
+    "categories": [
+        "business",
+        "technology",
+        "productivity"
+    ],
+    "orientation": "portrait"
+}

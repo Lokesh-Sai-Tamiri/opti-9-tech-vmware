@@ -147,8 +147,8 @@ export default function VMwareLandingPage() {
                 VMware Licensing Crisis
               </Badge>
               <h1 className="text-5xl font-bold text-white mb-6 leading-tight">
-                Escape the {"Greater than 300%"} VMware
-                <span className="text-orange-400"> Licensing Increase</span>
+                Stop Paying 300% More for{" "}
+                <span className="text-orange-400">VMware Licensing</span>
               </h1>
               <p className="text-xl text-slate-200 mb-8 leading-relaxed">
                 Following Broadcom&apos;s acquisition, VMware licensing costs
@@ -295,9 +295,7 @@ export default function VMwareLandingPage() {
                   <div className="text-2xl font-bold text-green-600 mb-2">
                     $0
                   </div>
-                  <div className="text-slate-600">
-                    Additional AWS Migration Costs*
-                  </div>
+                  <div className="text-slate-600">AWS Migration Costs</div>
                   <div className="text-sm text-slate-500 mt-2">
                     *With 100% AWS funding programs
                   </div>
