@@ -154,6 +154,25 @@ export default function RootLayout({
             }),
           }}
         />
+
+        <script
+          async
+          defer
+          src="https://app.visitortracking.com/assets/js/tracer.js"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      function init_tracer() { 
+        var tracer = new Tracer({  
+          websiteId : "2a9029b2-fc08-47ab-8ca0-ed5a504d8659",  
+          async : true, 
+          debug : false 
+        }); 
+      }
+    `,
+          }}
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
